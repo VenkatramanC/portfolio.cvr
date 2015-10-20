@@ -1,14 +1,38 @@
 #home{ 
-     background-image: url("../images/sky.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
-     min-height: 100vh;
+ background-image: url("../images/sky.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ font-family: robo;
 
-    .home{
-      position: relative;
-      padding-top: 200px;
-      text-transform: translateY(-50%);
-      text-align: center;
-      color: #FFF;
+
+  .first{
+    position: relative;
+    padding-top: 100px;
+    text-transform: translateY(-50%);
+    text-align: center;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    
+    .head{
+      font-size: 75px;
+      font-weight: 300;
     }
+     .main{
+      font-size: 20px;
+     }
+
+
+    .img-circle {
+      width: 150px;
+      height: 150px;
+      background: red;
+      -moz-border-radius: 70px;
+      -webkit-border-radius: 70px;
+       border-radius: 80px;
+       margin-top: 30px;
+     }
+  }
 }
